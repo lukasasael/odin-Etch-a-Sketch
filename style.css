@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 100px 230px;
+}
+
+div.pixel {
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 2px;
+    height: 2px;
+}
