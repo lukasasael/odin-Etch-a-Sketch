@@ -1,5 +1,6 @@
 let gridsize = 16;
 const container = document.querySelector("#container");
+container.style.gridTemplateRows = "repeat(16, 1fr)";
 
 function generateDivs(gridsize) {
     const container = document.querySelector('#container');
@@ -25,6 +26,7 @@ function resetBtn() {
 
 function setGridSize16() {
     let gridsize = 16;
+    container.style.gridTemplateRows = "repeat(16, 1fr)";
     while (container.firstChild)
         container.removeChild(container.firstChild);
     generateDivs(gridsize);
@@ -32,6 +34,7 @@ function setGridSize16() {
 
 function setGridSize32() {
     let gridsize = 32;
+    container.style.gridTemplateRows = "repeat(32, 1fr)";
     while (container.firstChild)
         container.removeChild(container.firstChild);
     generateDivs(gridsize);
@@ -39,6 +42,7 @@ function setGridSize32() {
 
 function setGridSize64() {
     let gridsize = 64;
+    container.style.gridTemplateRows = "repeat(64, 1fr)";
     while (container.firstChild)
         container.removeChild(container.firstChild);
     generateDivs(gridsize);

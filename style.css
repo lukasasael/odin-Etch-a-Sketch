@@ -4,15 +4,16 @@ div {
 }
 
 #container {
+    border: 10px solid #4e6096;
     display: grid;
     grid-template-rows: repeat(16, 1fr);
     grid-auto-flow: column;
     width: auto;
     height: auto;
+    overflow-wrap: break-word;
 }
 
 btn.pixel {
-    border: 1px solid #73AD21;
     width: 20px;
     height: 20px;
 }
